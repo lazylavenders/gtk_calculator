@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 # -*- encoding=utf-8 -*-
 
+#   ______/‾‾/__    /‾/
+#  //‾/ /       \__/ /
+# < ‾‾ |             <
+#  \    \       /‾‾\ \
+#   ‾‾‾‾‾‾\__\‾‾    \_\
+# What is this ? A fish, of course
+
 import gi
 gi.require_version('Gtk','3.0')
 from gi.repository import Gtk
