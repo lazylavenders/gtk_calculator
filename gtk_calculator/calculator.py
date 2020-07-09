@@ -117,7 +117,9 @@ class CalculatorGui(Gtk.Box):
 
     def go(self, widget):
         _ = self.formatted_text()
-        exec(f'self.entry.set_text(str({_}))')
+        try :
+            exec(f'self.entry.set_text(str({_}))')
+        except :...
         if debug:
             print("Done, result is >> "+ self.entry.get_text())
     
